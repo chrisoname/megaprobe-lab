@@ -50,3 +50,51 @@ This semester I want to concentrate more in using visualization  methods to help
 - Julio send me a json with ipv6 flow data.
 - After figuring how a json works in Python scrypt for a whi;e, I was able to display the desired data.
 - I want to display all the data in a table format, and be able to have the option to choose the fields you want to display.
+
+##Week 5 (02/29/16 - 03/04/16)
+- Tried to make my json reader script save the data neatly in a file but fail. I don't want to spend too much time on the script so I just print the data in the terminal and save it in file myself. I'll go back and try to fix it when I have more time.
+
+##Week 6 (03/03/16 - 03/11/16)
+- Really didn't got to do much becouse I was super busy with classes. And when I say "didn't go to fo much" I actually mean I haven't done anything this week.
+- Bianca told me I had to do the WyCiS poster for next Monday but I ignored her. I have the IOs bootcamp all weekened plus work so I barely have time to work on it and I want to be able to show the Cube on Doom in the poster. Sorry Bianca.
+
+##Week 7 (03/14/16 - 03/18/16)
+- Talk to Julio about how to display the 3D cube. He explain how his vizualization work, and he recommened me to ask Cheo about it.
+- Hoping there's a 3 day strike so I can catch to research and classes. "Huelga si, entrega no!"
+- I think this has become a weekly journal for the whole Megaprobe to see. 
+
+##Week 8 (03/21/16 - 03/25/16)
+- Easter Week. Spent some time practicing Javascript and reading code from TOA to try understand it better.
+- Started doing the Research poster for Women in Cybersecurity.
+
+##Week 9 (03/28/16 - 04/01/16)
+- Finished the poster for Wicys and send it to print.
+- Went to the Wicys conference from 30 to April 3rd. 
+- Presented research poster at Wicys with the title Using Visualization to improve Anomaly Detection in IPv6 Flows.
+- I learned new programming techniques and how to find different type of vulnerabilities in web apps. I also met a lot of professionals from both computer science and the cybersecurity fields which gave me advice in graduate studies and job interviews.
+
+##Week 10 (04/04/16 - 04/08/16)
+- Met with Julio, Ian and Cheo on Wednesday where Cheo explained briefly how the cube works, and how to merge it with Julio's and Ian's API.
+
+##Week 11 (04/11/16 - 04/15/16)
+- Keep on doing some tutorials with in Javascript.
+- Meet with Julio on Tuesday to see how to implement the cube on his API and make it work with real time IP flows from Wolverine.
+
+##Week 12 (04/18/16 - 04/15/16)
+- Went to the Memory Forensics Workshop both Friday and Saturday.
+- Julio was able to implement the cube on his API so it could be seen in his web APP and scp me the code so I could also have access to the cube.
+
+##Week 13 (04/18/16 - 04/22/16)
+- Finally some results! Me and Julio (mostly Julio) managed to make the cube display static IPv6 data. 
+![Static Ipv6 Flow Data displayed in the Cube](images/Cube_Static_data.png "Static Data in Cube" )
+
+##Week 14 (04/25/16 - 04/29/16)
+- I have been trying to understand the code in ctrpan.js (which is the one that renders the cube and displays the data as particules), but I'm still a bit confused with it.
+- I been trying to display the same result as Julio in my directory but alas no results.
+![alt tag](https://s-media-cache-ak0.pinimg.com/736x/69/07/a7/6907a7bab3e2a5bffc48892e9e85e97c.jpg) 
+
+##Week 15 (04/02/16 - 04/06/16)
+- I scp all of the folders that Julio pass me into my directory in Wolverine to see if I could get some results. DID NOT get the same results, but I did managed to get some particles in the cube. Hoorray! Some data! However all of the particles seem to be in the same axis, so I have to see what the problem is. Humberto says that it might be because the x,y,z are returning all zereos. I have to check that but at least I can see that rate_pos is displaying some type of data. 
+![First Time displaying real time data](images/First_test.png "First Display of Ipv6 real time data." )
+
+
